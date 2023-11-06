@@ -1,0 +1,71 @@
+/* display */
+.hide{
+    display: none;
+}
+
+.inlineBlock{
+    display: inline-block;
+}
+
+/* for divs */
+.fitScreen{
+    min-width: 100%;
+    min-height: 100vh;
+    max-width: 100%;
+    max-height: 100vh;
+}
+
+.relative{
+    position: relative;
+}
+
+.background-primary{
+    background-color: var(--primary);
+}
+
+.background-secondary{
+    background-color: var(--secondary);
+}
+
+    /* padding */
+    .padding-4{
+        padding: 2vw;
+    }
+
+    .paddingTopBot-4{
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+
+/* for text */
+.centerText{
+    text-align: center;
+}
+
+.textColor-primary{
+    color: var(--primary);
+}
+
+.textColor-secondary{
+    color: var(--secondary);
+}
+
+.p3{
+    font-size: 0.5vw;
+}
+
+/* for flexBox */
+.flex-36em{
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 35.5625em){
+    .flex-36em{
+        flex-direction: row;
+    }
+
+    .flex-36em > * {
+        flex-basis: 100%;
+    }
+}

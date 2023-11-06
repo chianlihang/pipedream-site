@@ -1,0 +1,187 @@
+/* @media screen and (min-width:35.5625em){
+	#button{
+		width: 30vw;
+	}
+}
+@media screen and (min-width:64em){
+	#button{
+		width: 10vw;
+	}
+} */
+
+/*links to downloaded typefaces */
+@font-face{
+    font-family: heming;
+    src: url(/type/heming-variable.ttf);
+}
+
+
+p{
+    line-height: 1.25;
+    font-family: heming;
+}
+
+h1{
+    font-size: 12vw;
+    line-height: 1;
+    font-family: heming;
+}
+
+h2{
+    font-size: 6vw;
+    line-height: 1.25;
+    font-family: heming;
+    font-weight: lighter;
+}
+
+h4{
+    font-size: 4vw;
+    font-weight: 100;
+    font-family: heming;
+}
+
+h6{
+    font-size: 1.5vw;
+    font-weight: 100;
+}
+
+
+@media screen and (min-width:35.5625em){
+
+}
+
+/* computer screen with reduced height (testing) */
+@media screen and (min-width: 64em){
+    p{
+        font-size: 0.85vw;
+    }
+
+    h1{
+        font-size: 18.7vw;
+    }
+    
+    h2{
+        font-size: 3.4vw;
+        line-height: 1.5;
+    }
+
+    h3{
+        font-size: 2.55vw;
+        line-height: 1.75;
+    }
+    
+    h4{
+        font-size: 1.7vw;
+        font-weight: 100;
+    }
+}
+
+/* normal computer screen size */
+@media screen and (min-width:64em) and (min-height: 32em) {
+    p{
+        font-size: 1vw;
+    }
+
+    h1{
+        font-size: 22vw;
+    }
+    
+    h2{
+        font-size: 4vw;
+        line-height: 1.5;
+    }
+
+    h3{
+        font-size: 3vw;
+        line-height: 1.75;
+    }
+    
+    h4{
+        font-size: 2vw;
+        font-weight: 100;
+    }
+}
+
+/* widescreen with reduced height (testing) */
+/* @media screen and (min-width: 120em){
+    p{
+        font-size: 0.5vw;
+    }
+
+    h1{
+        font-size: 11vw;
+    }
+    
+    h2{
+        font-size: 2vw;
+        line-height: 1.5;
+    }
+
+    h3{
+        font-size: 1.5vw;
+        line-height: 1.75;
+    }
+    
+    h4{
+        font-size: 1vw;
+        font-weight: 100;
+    }
+} */
+
+/* normal widescreen display (testing) */
+/* @media screen and (min-width: 120em) and (min-height: 64em){
+    p{
+        font-size: 1vw;
+    }
+
+    h1{
+        font-size: 22vw;
+    }
+    
+    h2{
+        font-size: 4vw;
+        line-height: 1.5;
+    }
+
+    h3{
+        font-size: 3vw;
+        line-height: 1.75;
+    }
+    
+    h4{
+        font-size: 2vw;
+        font-weight: 100;
+    }
+} */
+
+a{
+    color: var(--primary);
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+::selection {
+	color: var(--primary);
+	background: var(--secondary);
+}
+
+/* styles scrollbar */
+::-webkit-scrollbar{
+    width: 3px;
+    height: 10px;
+  }
+  
+  ::-webkit-scrollbar-track{
+    background: var(--secondary);
+    /* margin-block: calc(1vw - 1px); */
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+  
+  ::-webkit-scrollbar-thumb{
+    background: var(--primary);
+    border: 1px solid var(--secondary);
+  }

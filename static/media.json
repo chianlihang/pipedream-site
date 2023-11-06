@@ -1,0 +1,56 @@
+[
+    {
+        "id": 0,
+        "title": "Robot",
+        "thumbnail": "/img/robot1.jpg",
+        "desc": "Our robot named Blue.",
+        "specs": 
+            [
+                "25MPH Max Speed",
+                "Fits 90% of Amazon Orders"
+            ]
+    },
+    {
+        "id": 1,
+        "title": "Robot",
+        "thumbnail": "/img/robot2.jpg",
+        "desc": "Our robot named Blue.",
+        "specs": 
+            [
+                "25MPH Max Speed",
+                "Fits 90% of Amazon Orders"
+            ]
+    },
+    {
+        "id": 2,
+        "title": "Robot",
+        "thumbnail": "/img/robot3.jpg",
+        "desc": "Our robot named Blue.",
+        "specs": 
+            [
+                "25MPH Max Speed",
+                "Fits 90% of Amazon Orders"
+            ]
+    },
+    {
+        "id": 3,
+        "title": "Walmart",
+        "thumbnail": "/img/walmart.jpg",
+        "desc": "Walmart pickup system.",
+        "specs": 
+            [
+                "500 orders/day"
+            ]
+    },
+    {
+        "id": 4,
+        "title": "Wendy's",
+        "thumbnail": "/img/wendys.jpg",
+        "desc": "Wendy's instant pickup.",
+        "specs": 
+            [
+                "4 pickup portals",
+                "Increases revenue 15%"
+            ]
+    }
+]   
